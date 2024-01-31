@@ -26,6 +26,7 @@
 
     <h1 class="p-3"> Edit Item </h1>
 
+    <%--@elvariable id="todo" type="todo"--%>
     <form:form action="/editSaveTask" method="post" modelAttribute="todo">
         <form:input path="id" type="hidden"/>
         <div class="row">
